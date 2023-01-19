@@ -92,3 +92,9 @@ Then you can join any number of worker nodes by running the following on each as
 kubeadm join 172.31.8.128:6443 --token pzzu7w.fa2zma4n2z8yoleq \
         --discovery-token-ca-cert-hash sha256:bf66975dce096b28e71e03aa051ecf956f54afbacdebc355b2418dd9ab48ffcc 
 ```
+
+### TO install network plugin for master and nodes connectivity
+
+```sh
+kubectl apply -f https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
+```
