@@ -1,2 +1,1 @@
-# Kubeadm
-## [shell script clickHere](./installation.sh)
+#### Kubeadm Installation Steps: [shell script clickHere](./installation.sh)
